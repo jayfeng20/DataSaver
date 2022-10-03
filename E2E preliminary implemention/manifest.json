@@ -1,0 +1,12 @@
+{
+"name": "Enigma DataBlocker",
+"description": "Strips websites down to save data.",
+"version": "1.0",
+"author": "Enigma",
+
+"permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/", "contentSettings","<all_urls>"],
+"background": {
+"scripts": ["background.js"]
+},
+"manifest_version": 2
+}
